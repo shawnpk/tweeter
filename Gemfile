@@ -19,12 +19,13 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'better_errors'
+  gem 'guard'
+  gem 'guard-minitest'
 end
 
 group :test do
   gem 'minitest-reporters'
   gem 'mini_backtrace'
-  gem 'guard-minitest'
 end
 
 group :production do
